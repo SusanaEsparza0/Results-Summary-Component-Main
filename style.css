@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+    main {
+        display: flex;
+        flex-direction: row;
+        width: 648px;
+        height: 486px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 9px 13px 20px hsla(224, 30%, 27%, 0.075);
+        margin: 15px;
+    }
+
+        .results {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 324px;
+            height: 486px;
+            background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%));
+            color: white;
+            border-radius: 20px;
+            padding: 0px 30px;
+            gap: 4%;
+        }
+        
+            h3 {
+                font-size: 1.3em;
+                color: hsl(241, 100%, 89%);
+                font-weight: 500;
+            }
+
+            .circle {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;background: linear-gradient(180deg, hsl(256, 72%, 46%, 1) 5%, hsl(241, 72%, 46%, 0));
+                border-radius: 50%;
+                width: 170px;
+                height: 170px;
+            }
+
+                h1 {
+                    font-weight: 800;
+                    font-size: 4em;
+                }
+
+                h5 {
+                    font-size: 1em;
+                    color: hsla(241, 100%, 89%, 0.507);
+                }
+
+            h2 {
+                font-size: 1.8em;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 1.2em;
+                color: hsla(241, 100%, 89%, 0.822);
+                margin: 10px;
+            }
+
+
+
+        .summary {
+            display: flex;
+            width: 324px;
+            height: 486px;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            padding: 15px 30px;
+        }
+
+            .summary h3 {
+                color: hsl(224, 30%, 27%);
+                font-weight: 700;
+                font-size: 1.5em;
+            }
+
+            .container {
+                width: 100%;
+                height: auto;
+            }
+
+                .container p {
+                    font-size: 1em;
+                    font-weight: 800;
+                    color: hsla(224, 30%, 27%, 0.521);
+                }
+
+                .container img {
+                    width: 22px;
+                    height: auto;
+                    margin-right: 10px;
+                }
+
+                .container div {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .reaction, .memory, .verbal, .visual  {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 20%;
+                    margin-bottom: 15px;
+                    font-size: 1.2em;
+                    font-weight: 700;
+                    border-radius: 10px;
+                    padding: 0 10px;
+                }
+
+                .reaction {
+                    background-color: hsla(0, 100%, 67%, 0.072);
+                    color: hsl(0, 100%, 67%);
+                }
+
+                .memory {
+                    background-color: hsla(39, 100%, 56%, 0.072);
+                    color: hsl(39, 100%, 56%);
+                }
+
+                .verbal{
+                    background-color: hsla(166, 100%, 37%, 0.072);
+                    color: hsl(166, 100%, 37%);
+                }
+
+                .visual {
+                    background-color: hsla(234, 85%, 45%, 0.072);
+                    color: hsl(234, 85%, 45%);
+                }
+
+                    .color {
+                        color: hsl(224, 30%, 27%);
+                    }
+
+            
+            .continue {
+                width: 100%;
+                background-color: hsl(224, 30%, 27%);
+                color: hsl(221, 100%, 96%);
+                font-size: 1.1em;
+                font-weight: 500;
+                border-radius: 30px;
+                padding: 13px;
+                font-family: 'Hanken Grotesk', sans-serif;
+                border: none;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%));
+            }
+
+    .attribution { 
+        font-size: 1em; 
+        text-align: center;
+        margin-top: 15px;
+     }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+    @media screen and (width: 375px) {
+        body {
+            height: auto;
+        }
+        
+        main {
+           flex-direction: column;
+           box-shadow: none;
+           width: 375px;
+           height: 100%;
+           margin: 0;
+        }
+
+            .results {
+                width: 375px;
+                height: 345px;
+                border-radius: 0px 0px 30px 30px;
+                padding: 10px 35px;
+                justify-content: space-evenly;
+            }
+
+                h3, p {
+                    font-size: 1em;
+                }
+            
+                .circle {
+                    width: 130px;
+                    height: 130px;
+                }
+
+                    h1 {
+                        font-size: 3em;
+                    }
+
+                    h5 {
+                        font-size: 0.8em;
+                    }
+
+                h2 {
+                    font-size: 1.5em;
+                }
+
+            .summary {
+                width: 375px;
+                height: 375px;
+                justify-content: space-between;
+                margin-top: 5px;
+            }
+
+                .summary h3 {
+                    font-size: 1em;
+                    margin-bottom: 10px;
+                }
+            
+                .container p, .reaction, .memory, .verbal, .visual {
+                    font-size: 1em;
+                }
+
+                .container img {
+                    width: 18px;
+                }
+
+                .continue {
+                    font-size: 1em;
+                    padding: 15px 13px;
+                }
+
+        .attribution {
+            font-size: 0.8em;
+        }
+    }
