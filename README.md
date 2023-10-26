@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](/img/FM%20-%20Results_summary_component.png.jpg)
+![](/img/FM%20-%20Results_summary_component.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/SusanaEsparza0/results-summary-component-main]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
