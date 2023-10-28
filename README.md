@@ -49,7 +49,7 @@ Users should be able to:
 
 This challenge was interesting, in my job I am rarely tasked with programming the mobile view and it was quite useful for me to understand how to switch from desktop to mobile. It helped me to get used to placing the boxes in a different view.
 
-Intente usar <dl> y <dd> en la parte del resumen pero, me di cuenta que sería más largo el código si lo intentaba así que, lo cambien en el ultimo momento por <div>usando clases para facilitar la parte del css.
+I tried using <dl> and <dd> in the summary part but, I realised it would be longer code if I tried so, I changed it at the last minute to <div> using classes to make the css part easier.
 
 ### Continued development
 
