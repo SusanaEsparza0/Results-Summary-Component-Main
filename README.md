@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/SusanaEsparza0/results-summary-component-main]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://susanaesparza0.github.io/Results-Summary-Component-Main/)
 
 ## My process
 
