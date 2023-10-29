@@ -179,7 +179,7 @@ body {
             color: hsl(228, 45%, 44%); 
         }
 
-        @media screen and (width: 375px) {
+        @media screen and (width: 425px) {
             
             main {
             flex-direction: column;
