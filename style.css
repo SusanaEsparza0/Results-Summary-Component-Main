@@ -180,9 +180,6 @@ body {
         }
 
         @media screen and (width: 375px) {
-            body {
-                height: auto;
-            }
             
             main {
             flex-direction: column;
