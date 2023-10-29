@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-    main {
+    section {
         display: flex;
         flex-direction: row;
         width: 648px;
@@ -179,9 +179,9 @@ body {
             color: hsl(228, 45%, 44%); 
         }
 
-        @media screen and (width: 425px) {
+        @media screen and (width: 375px) {
             
-            main {
+            section {
             flex-direction: column;
             box-shadow: none;
             width: 375px;
