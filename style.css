@@ -175,78 +175,78 @@ body {
         text-align: center;
         margin-top: 15px;
      }
-    .attribution a { 
-        color: hsl(228, 45%, 44%); 
-    }
-
-    @media screen and (width: 375px) {
-        body {
-            height: auto;
-        }
-        
-        main {
-           flex-direction: column;
-           box-shadow: none;
-           width: 375px;
-           height: 100%;
-           margin: 0;
+        .attribution a { 
+            color: hsl(228, 45%, 44%); 
         }
 
-            .results {
-                width: 375px;
-                height: 345px;
-                border-radius: 0px 0px 30px 30px;
-                padding: 10px 35px;
-                justify-content: space-evenly;
+        @media screen and (width: 375px) {
+            body {
+                height: auto;
+            }
+            
+            main {
+            flex-direction: column;
+            box-shadow: none;
+            width: 375px;
+            height: 100%;
+            margin: 0;
             }
 
-                h3, p {
-                    font-size: 1em;
-                }
-            
-                .circle {
-                    width: 130px;
-                    height: 130px;
+                .results {
+                    width: 375px;
+                    height: 345px;
+                    border-radius: 0px 0px 30px 30px;
+                    padding: 10px 35px;
+                    justify-content: space-evenly;
                 }
 
-                    h1 {
-                        font-size: 3em;
+                    h3, p {
+                        font-size: 1em;
+                    }
+                
+                    .circle {
+                        width: 130px;
+                        height: 130px;
                     }
 
-                    h5 {
-                        font-size: 0.8em;
+                        h1 {
+                            font-size: 3em;
+                        }
+
+                        h5 {
+                            font-size: 0.8em;
+                        }
+
+                    h2 {
+                        font-size: 1.5em;
                     }
 
-                h2 {
-                    font-size: 1.5em;
+                .summary {
+                    width: 375px;
+                    height: 375px;
+                    justify-content: space-between;
+                    margin-top: 5px;
                 }
 
-            .summary {
-                width: 375px;
-                height: 375px;
-                justify-content: space-between;
-                margin-top: 5px;
+                    .summary h3 {
+                        font-size: 1em;
+                        margin-bottom: 10px;
+                    }
+                
+                    .container p, .reaction, .memory, .verbal, .visual {
+                        font-size: 1em;
+                    }
+
+                    .container img {
+                        width: 18px;
+                    }
+
+                    .continue {
+                        font-size: 1em;
+                        padding: 15px 13px;
+                    }
+
+            .attribution {
+                font-size: 0.8em;
             }
-
-                .summary h3 {
-                    font-size: 1em;
-                    margin-bottom: 10px;
-                }
-            
-                .container p, .reaction, .memory, .verbal, .visual {
-                    font-size: 1em;
-                }
-
-                .container img {
-                    width: 18px;
-                }
-
-                .continue {
-                    font-size: 1em;
-                    padding: 15px 13px;
-                }
-
-        .attribution {
-            font-size: 0.8em;
         }
-    }

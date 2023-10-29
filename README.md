@@ -12,7 +12,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -55,10 +54,6 @@ I tried using <dl> and <dd> in the summary part but, I realised it would be long
 
 I still have a lot to learn in CSS so, I will keep practising these challenges in order to get better at basic programming and learn more languages to improve the breakdown of web pages and applications.
 
-
-### Useful resources
-
-- [W3 Schools](https://www.w3schools.com/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 
 ## Author
